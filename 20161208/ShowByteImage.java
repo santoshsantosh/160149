@@ -4,9 +4,11 @@ public class ShowByteImage{
 		
 FileInputStream inFile=null;
 try{
-	inFile =new FileInputStream("wallpaper.jpg");
-	int data=inFile.read();
-	System.out.println(data);
+	inFile =new FileInputStream("stock-photo-freedom-motorbike-under-sky-290736494.jpg");
+	int data;
+	while(( data=inFile.read())!=-1){
+	
+	System.out.println(data);}
 	inFile.close();
 
 
