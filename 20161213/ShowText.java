@@ -1,7 +1,11 @@
 import java.io.*;
 public class ShowText{
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		String fileName = args[0];
+=======
+		String fileName=args[0];
+>>>>>>> origin/master
 		FileReader fr = null;
 		BufferedReader in = null;
 
