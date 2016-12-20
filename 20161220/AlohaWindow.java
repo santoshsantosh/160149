@@ -2,10 +2,16 @@
  import javax.swing.*;
  public class AlohaWindow{
  public static void main(String[] args) {
-	JFrame farme=new JFrame();
-	farme.setSize(400,400);
-	farme.setTitle("Sharma Santosh");
-	farme.setDefultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	farme.setVisible(true);
+	JFrame frame=new JFrame();
+	frame.setSize(400,400);
+	frame.setTitle("Sharma Santosh");
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	frame.setLayout(new FlowLayout());
+	JLabel label=new JLabel("HELLO");
+	Container ctnr=frame.getContentPane();
+	ctnr.add(label);
+	JButton button=new JButton("CLICKMe");
+	ctnr.add(button);
+	frame.setVisible(true);
 }
 }
