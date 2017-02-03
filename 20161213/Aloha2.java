@@ -1,4 +1,4 @@
-import java.io.*;
+﻿import java.io.*;
 
 public class Aloha2 {
 	public static void main(String[] args) {
@@ -16,13 +16,10 @@ public class Aloha2 {
 
 
 class Dataman {
-	
-		
-	}
-	
+	.....
+}
 
 
 class Fileman {
-	
-
+	.....
 }
